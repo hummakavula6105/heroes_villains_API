@@ -37,7 +37,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Superman\",\r\n    \"alter_ego\": \"Clark Kent\",\r\n    \"primary_ability\": \"Super Strength\",\r\n    \"secondary_ability\": \"Flight\",\r\n    \"catchphrase\": \"Up, up, and away!\",\r\n    \"super_type\": \"Hero\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Superman\",\r\n    \"alter_ego\": \"Clark Kent\",\r\n    \"primary_ability\": \"Super Strength\",\r\n    \"secondary_ability\": \"Flight\",\r\n    \"catchphrase\": \"Up, up, and away!\",\r\n    \"super_type_id\": \"Hero\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -70,7 +70,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Superman\",\r\n    \"alter_ego\": \"Clark Kent\",\r\n    \"primary_ability\": \"Flight\",\r\n    \"secondary_ability\": \"X-ray Vision\",\r\n    \"catchphrase\": \"Up, up, and away!\",\r\n    \"super_type\": \"Hero\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Superman\",\r\n    \"alter_ego\": \"Clark Kent\",\r\n    \"primary_ability\": \"Flight\",\r\n    \"secondary_ability\": \"X-ray Vision\",\r\n    \"catchphrase\": \"Up, up, and away!\",\r\n    \"super_type_id\": \"Hero\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

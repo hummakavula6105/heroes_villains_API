@@ -4,15 +4,17 @@ from rest_framework.response import Response
 from .serializers import SupersSerializer
 from .models import Super
 from rest_framework import status
-
 import supers
-from .serializers import SupersSerializer
-from .models import Super
+
 
 @api_view(['GET', 'POST'])
 def supers_list(request):
 
     if request.method == 'GET':
+        super = request.query_params.get('super')
+        queryset = Super.objects.all()
+        if super:
+            queryset = queryset.filter(super__=super)
         supers = Super.objects.all()
         serializer = SupersSerializer(supers, many=True)
         return Response (serializer.data)

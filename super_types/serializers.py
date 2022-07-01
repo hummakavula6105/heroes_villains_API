@@ -5,4 +5,5 @@ from .models import SuperType
 class SuperTypeSerializer(serializers.ModelSerializer):
     class Meta:
         model = SuperType
-        fields = ['id',  'name', 'alter_ego', 'primary_ability', 'secondary_ability', 'catchphrase', 'super_type']
+        fields = ['id', 'super_type']
+        depth = 1
